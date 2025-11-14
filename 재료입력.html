@@ -110,14 +110,14 @@
 
   const ingredients = [];
 
-  // ★ 엔터키로 재료 추가 기능
+  
   document.getElementById("ingredientInput").addEventListener("keydown", function(e) {
     if (e.key === "Enter") {
       addIngredient();
     }
   });
 
-  // ★ 재료 추가 + 삭제 버튼 생성
+
   function addIngredient() {
     const input = document.getElementById("ingredientInput");
     const value = input.value.trim();
@@ -177,3 +177,4 @@
 
 </body>
 </html>
+
